@@ -23,8 +23,9 @@ In the event DNS lookup fails, we fall back to returning the passed in host - e.
 ```php
 <?php 
 require_once(__DIR__ . '/vendor/autoload.php');
-// ... 
+
 $hosts = \Orlo\DnsHostnameExpansion\DNSLookup::expandFromDnsALookup("my.host.name", "https://", "9200);
-// ...
+
+// e.g. ["https://1.2.3.4:9200","https://1.2.3.5:9200"]
 
 ```
