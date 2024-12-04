@@ -18,7 +18,7 @@ In the event DNS lookup fails, we fall back to returning the passed in host - e.
 
 # Usage
 
- * composer require orlo/dns-host-expansion
+ * composer require orlo/dns-hostname-expansion
  * ...
 ```php
 <?php 
