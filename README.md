@@ -16,3 +16,15 @@ The prefix + suffix used in decoration are configurable and could be omitted.
 
 In the event DNS lookup fails, we fall back to returning the passed in host - e.g. https://elasticsearch.test.org:9200
 
+# Usage
+
+ * composer require orlo/dns-host-expansion
+ * ...
+```php
+<?php 
+require_once(__DIR__ . '/vendor/autoload.php');
+// ... 
+$hosts = \Orlo\DnsHostnameExpansion\DNSLookup::expandFromDnsALookup("my.host.name", "https://", "9200);
+// ...
+
+```

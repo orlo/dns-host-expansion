@@ -1,5 +1,5 @@
 {
-    "name": "orlo/dns-host-expansion",
+    "name": "orlo/dns-hostname-expansion",
     "description": "may perform dns lookup + expansion of hosts",
     "minimum-stability": "stable",
     "license": "proprietary",
